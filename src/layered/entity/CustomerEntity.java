@@ -17,7 +17,7 @@ public class CustomerEntity {
     private String address;
     private String gender;
 
-    public CustomerEntity() {
+    public CustomerEntity() { 
     }
 
     public CustomerEntity(String custId, String fname, String lname, String email, int phone, String address, String gender) {

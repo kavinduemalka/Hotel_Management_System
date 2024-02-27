@@ -24,25 +24,26 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" attributes="0">
-              <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
-                  <Component id="btnroom" max="32767" attributes="0"/>
-                  <Component id="btncategory" pref="165" max="32767" attributes="0"/>
+                  <Component id="btnroom" min="-2" pref="225" max="-2" attributes="0"/>
+                  <Component id="btncategory" min="-2" pref="225" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
               <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="btnreservation" max="32767" attributes="0"/>
                   <Component id="btncustomer" max="32767" attributes="0"/>
-                  <Component id="btnreservation" pref="163" max="32767" attributes="0"/>
               </Group>
-              <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="jLabel1" max="32767" attributes="0"/>
-              <EmptySpace max="-2" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="1" attributes="0">
-              <Component id="jSeparator1" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jLabel1" pref="524" max="32767" attributes="0"/>
+                  </Group>
+                  <Component id="jSeparator1" alignment="1" max="32767" attributes="0"/>
+              </Group>
               <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
@@ -51,20 +52,20 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" pref="65" max="-2" attributes="0"/>
               <EmptySpace max="-2" attributes="0"/>
               <Component id="jSeparator1" min="-2" pref="10" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btnroom" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
-                  <Component id="btncustomer" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                  <Component id="btnroom" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
+                  <Component id="btncustomer" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="btncategory" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
-                  <Component id="btnreservation" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                  <Component id="btncategory" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
+                  <Component id="btnreservation" alignment="3" min="-2" pref="80" max="-2" attributes="0"/>
               </Group>
-              <EmptySpace pref="59" max="32767" attributes="0"/>
+              <EmptySpace pref="97" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -72,6 +73,12 @@
   <SubComponents>
     <Component class="javax.swing.JButton" name="btnroom">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="20" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Manage  Rooms"/>
       </Properties>
       <Events>
@@ -80,6 +87,12 @@
     </Component>
     <Component class="javax.swing.JButton" name="btncustomer">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="20" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Manage  Customers"/>
       </Properties>
       <Events>
@@ -88,6 +101,12 @@
     </Component>
     <Component class="javax.swing.JButton" name="btncategory">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="20" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Manage  Categories"/>
       </Properties>
       <Events>
@@ -96,6 +115,12 @@
     </Component>
     <Component class="javax.swing.JButton" name="btnreservation">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="99" type="rgb"/>
+        </Property>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="20" style="0"/>
+        </Property>
         <Property name="text" type="java.lang.String" value="Manage  Reservations"/>
       </Properties>
       <Events>
@@ -104,8 +129,11 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="99" type="rgb"/>
+        </Property>
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Segoe UI" size="24" style="0"/>
+          <Font name="Segoe UI" size="36" style="1"/>
         </Property>
         <Property name="horizontalAlignment" type="int" value="0"/>
         <Property name="text" type="java.lang.String" value="Hotel Management System"/>
